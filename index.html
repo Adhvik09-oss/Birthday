@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Dad!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Initial Animation Section -->
+        <div id="animation-section" class="section active">
+            <div class="candle-container">
+                <div class="candle">
+                    <div class="flame"></div>
+                    <div class="wick"></div>
+                    <div class="wax"></div>
+                </div>
+            </div>
+            <div class="birthday-text hidden">
+                <h1>Happy Birthday</h1>
+                <h2>Dad!</h2>
+            </div>
+            <div class="confetti-container"></div>
+        </div>
+
+        <!-- Slideshow Section -->
+        <div id="slideshow-section" class="section">
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <div class="slide-content">
+                        <img src="images/slide1.jpg" alt="Memory 1">
+                        <p class="slide-text">To the best dad in the world!</p>
+                    </div>
+                </div>
+                <div class="slide fade">
+                    <div class="slide-content">
+                        <img src="images/slide2.jpg" alt="Memory 2">
+                        <p class="slide-text">Thank you for always being there</p>
+                    </div>
+                </div>
+                <div class="slide fade">
+                    <div class="slide-content">
+                        <img src="images/slide3.jpg" alt="Memory 3">
+                        <p class="slide-text">Your love and guidance mean everything</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-controls">
+                <button class="prev-btn">❮</button>
+                <button class="next-btn">❯</button>
+            </div>
+        </div>
+
+        <!-- Grand Finale Section -->
+        <div id="finale-section" class="section">
+            <div class="finale-content">
+                <h1>Happy Birthday Dad!</h1>
+                <p class="finale-message">Thank you for being the amazing father that you are. Here's to many more wonderful years together!</p>
+                <div class="fireworks-container"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
